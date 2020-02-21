@@ -82,12 +82,17 @@ $ curl -XGET https://intranet.hbtn.io/tasks/1007.json?auth_token=0123456789abcde
 $
 ```
 ### Installation
-`$ npm install request`
+`$ npm install request`  
+`$ npm install nodemailer`
 
-### Production
+### Testing
+(request)  
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20not%20available.png" />
 
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20available.png" />
+
+(nodemailer)  
+<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/img-and-readme-change/images/nodemailer.png" />
 
 ## Authors
 * [Jessica Bathel](https://github.com/jbathel)
