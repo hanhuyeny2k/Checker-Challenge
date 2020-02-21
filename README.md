@@ -1,8 +1,11 @@
-<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/readmeHeader.jpg" width="auto    " height=auto />
+<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/img-and-readme-change/images/README_header_update.png" width="auto    " height=auto />
 
 # Checker Challenge: HippoSpammer
 ## Description
-Receive text message when the checker comes out
+Receive an email when the checker comes out for requested project  
+Simply enter your Holberton email, password, [API key](https://intranet.hbtn.io/dashboards/my_tools), and desired project ID to receive an email when the checker becomes available for the project. (Project IDs can be found at the end of the URL for the project!) Click submit and sit back while you wait for the alert from HippoSpammer.  
+
+<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/img-and-readme-change/images/Info_fill_out.png" />
 
 ## Demonstration
 
