@@ -3,7 +3,7 @@
 # Checker Challenge: HippoSpammer
 ## Description
 Receive an email when the checker comes out for requested project  
-Simply enter your Holberton email, password, [API key](https://intranet.hbtn.io/dashboards/my_tools), and desired project ID to receive an email when the checker becomes available for the project. Project IDs can be found at the end of the URL for the project.  
+Simply enter your Holberton email, password, [API key](https://intranet.hbtn.io/dashboards/my_tools), and desired project ID to receive an email when the checker becomes available for the project. (Project IDs can be found at the end of the URL for the project!) Click submit and sit back while you wait for the alert from HippoSpammer.  
 
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/img-and-readme-change/images/Info_fill_out.png" />
 
