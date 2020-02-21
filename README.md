@@ -82,12 +82,20 @@ $ curl -XGET https://intranet.hbtn.io/tasks/1007.json?auth_token=0123456789abcde
 $
 ```
 ### Installation
-`$ npm install request`
+`$ npm install request`  
+`$ npm install nodemailer`
+
+**Note for nodemailer using Gmail:**  
+Emails automatically go to the receiver's spambox when intially sent out. Be sure to remind them to mark your email as safe so that it will automatically head to inbox the next time they are emailed. For more information, you may read [this](https://nodemailer.com/usage/using-gmail/). :slightly_smiling_face:
 
 ### Testing
+(request)  
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20not%20available.png" />
 
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20available.png" />
+
+(nodemailer)  
+<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/img-and-readme-change/images/nodemailer.png" />
 
 ## Authors
 * [Jessica Bathel](https://github.com/jbathel)
