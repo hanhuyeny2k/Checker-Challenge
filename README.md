@@ -1,4 +1,4 @@
-<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/readmeHeader.jpg" width="160    " height=auto />
+<img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/readmeHeader.jpg" width="auto    " height=auto />
 
 # Checker Challenge: HippoSpammer
 ## Description
