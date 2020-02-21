@@ -87,11 +87,11 @@ $
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20available.png" />
 
 ## Authors
-[Jessica Bathel](https://github.com/jbathel)
-[Joan Cruz](https://github.com/joancruzz)
-[Edward Guillermo](https://github.com/guilmeister)
-[Yashar Mateen](https://github.com/yasheymateen)
-[Brent Muha](https://github.com/bmuha1)
-[Hanh Nguyen](https://github.com/hanhuyeny2k)
-[Aalaa Satti](https://github.com/alaksatti)
-[Alia Vang](https://github.com/aliavang)
+* [Jessica Bathel](https://github.com/jbathel)
+* [Joan Cruz](https://github.com/joancruzz)
+* [Edward Guillermo](https://github.com/guilmeister)
+* [Yashar Mateen](https://github.com/yasheymateen)
+* [Brent Muha](https://github.com/bmuha1)
+* [Hanh Nguyen](https://github.com/hanhuyeny2k)
+* [Aalaa Satti](https://github.com/alaksatti)
+* [Alia Vang](https://github.com/aliavang)
