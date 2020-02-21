@@ -85,6 +85,9 @@ $
 `$ npm install request`  
 `$ npm install nodemailer`
 
+**Note for nodemailer using Gmail:**  
+Emails automatically go to the receiver's spambox when intially sent out. Be sure to remind them to mark your email as safe so that it will automatically head to inbox the next time they are emailed. For more information, you can read more [here](https://nodemailer.com/usage/using-gmail/) :slight_smile:
+
 ### Testing
 (request)  
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20not%20available.png" />
