@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background: #FCFCFC;
+    font-family: 'Domine';
   }
   /*--- navigation bar ---*/
   .navbar {
@@ -23,11 +24,24 @@ body {
   }
 
   .header {
-    background-image: url('images/readmeHeader.jpg');
+    background-image: url('images/background.jpg');
     background-size: contain;
     background-position: center;
     position: relative;
   }
+  h1 {
+    color: #e1003c;
+    text-align: center;
+    font-size: 7em;
+  }
+  
+  span {
+    color: #f1f2f2;
+  }
+  /* .img-fluid {
+    align in center
+    resize
+  } */
 
   .description {
       left: 50%;
@@ -64,9 +78,12 @@ body {
       margin: 4em auto;
       padding: 1em;
       position: relative;
-      background-color: #1e145f;
   }
-
+  
+  .jumbotron {
+    background-color: #1e145f;
+    text-align: center;
+  }
   .feature-title {
       color: #78cdd2;
       font-size: 1.3rem;
