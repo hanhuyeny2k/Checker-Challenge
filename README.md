@@ -81,7 +81,7 @@ $
 ### Installation
 `$ npm install request`
 
-### Production
+### Testing
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20not%20available.png" />
 
 <img src="https://github.com/hanhuyeny2k/HippoSpammer/blob/master/images/When%20checker%20is%20available.png" />
