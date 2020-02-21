@@ -9,10 +9,18 @@ function dictToURI(dict) {
   return str.join("&");
 }
 
+const keyValues = {
+    'email': '803@holbertonschool.com',
+    'password': 'Guilmeister21',
+    'api_key': '86da6549e2fa51059a356886f4001804',
+    'scope': 'checker'
+};
+
 const url = 'https://intranet.hbtn.io/users/auth_token.json?' + dictToURI(keyValues);
 
+
 console.log(url);
-request(url, { json: true }, function (error, response, body) {
+request.post(url, { json: true }, function (error, response, body) {
   if (error) throw error;
   console.log(body);
 });
