@@ -6,7 +6,7 @@ const keyValues = {
   "password":
   "scope": "checker"
 };
-const project_id = 572; /* 572 not out, 273 out */
+const project_id = 273; /* 572 not out, 273 out */
 let auth = '';
 
 function dictToURI(dict) {
@@ -39,10 +39,11 @@ const get_project = function () {
   console.log(url_project);
   request(url_project, { json: true }, function (error, response, body) {
     if (error) throw error;
-
+    console.log(keyValues.email);
     for (const task of body.tasks) {
       if (task.checker_available) {
-	console.log('checker is available!');
+	console.log('checker is available');
+	send_email();
 	return process.exit();
       }
     }
@@ -53,3 +54,28 @@ const get_project = function () {
 const requestLoopProject = setInterval( function () {
   get_project();
 }, 60000); /* 60000 ms is one minute */
+
+const send_email = function () {
+  const nodemailer = require('nodemailer');
+  const transport = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'joancruz95@gmail.com',
+      pass: 'jcSANFRAN..95'
+    }
+  });
+  const message = {
+    from: 'joancruz95@gmail.com', // Sender address
+    to: keyValues.email,  // List of recipients
+    subject: 'The checker is out!', // Subject line
+    html: '<p>The checker is out!</p>'
+  };
+  transport.sendMail(message, function (err, info) {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log(info);
+    }
+  });
+  exports.message=message;
+};
